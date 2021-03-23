@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#
+# Copyright (c) 2021 Neruthes.
+#
+# Published under GNU GPLv2 license. The full text may be found at
+# <https://www.gnu.org/licenses/old-licenses/gpl-2.0.html>.
+#
+
+ASU_FILEPATH="$(which ausuc-selfupdate)"
+ASU_BINDIR="${ASU_FILEPATH/ausuc-selfupdate/}"
+
+cd "${ASU_BINDIR}"
+git pull origin master
+
+echo "-----------------"
+echo "ausuc-selfupdate: Self-update done through git. If there is any problem, merge manually in '${ASU_BINDIR}'."
