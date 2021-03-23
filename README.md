@@ -1,8 +1,6 @@
-# AUSUC
+# AOSC Unofficial Shellscript Utility Collection
 
-AOSC Unofficial Shellscript Utility Collection.
-
-
+Always Overuse Shellscript!
 
 ## Use
 
