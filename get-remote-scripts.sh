@@ -19,5 +19,5 @@ for i in $(ls "${PREFIX}/remote-sources"); do
     echo "SCRIPTURL: $SCRIPTURL"
     wget "${SCRIPTURL}" -O "${PREFIX}/cache/${i}"
     echo "---------------------------------------"
-    sleep 1
+    sleep 5
 done
