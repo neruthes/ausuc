@@ -14,4 +14,4 @@ cd "${ASU_BINDIR}"
 git pull origin master
 
 echo "-----------------"
-echo "ausuc-selfupdate: Self-update done through git. If there is any problem, merge manually in '${ASU_BINDIR}'."
+echo "ausuc-selfupdate: Self-update done through git. If there is any problem, merge manually in '${ASU_FILEPATH/bin\/ausuc-selfupdate/}'."
